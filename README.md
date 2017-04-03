@@ -1,5 +1,9 @@
-# formsdemo Xamarin.Forms 示例
+# Xamarin.Forms 示例
 
 1.启动平
 2.导航页
 3.网易新闻布局模仿
+
+1. 项目一 有序列表 `数字 + . + 空格键`
+2. 项目二 
+3. 项目三
