@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="demo.Nav3View">
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="*"/>
+			<RowDefinition Height="150"/>
+		</Grid.RowDefinitions>
+		<Label Grid.RowSpan="2" HorizontalOptions="Center" VerticalOptions="Center" Text="导航页3"/>
+		<Button Grid.Row="1" Text="立即体验" Clicked="OnClicked" VerticalOptions="Center"/>
+	</Grid>
+</ContentView>

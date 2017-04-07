@@ -1,0 +1,6 @@
+layout/horizontal_viewpager.xml;layout/horizontal_viewpager.xml
+values/vpi__attrs.xml;values/vpi__attrs.xml
+values/vpi__colors.xml;values/vpi__colors.xml
+values/vpi__defaults.xml;values/vpi__defaults.xml
+values/vpi__styles.xml;values/vpi__styles.xml
+layout/vertical_viewpager.xml;layout/vertical_viewpager.xml

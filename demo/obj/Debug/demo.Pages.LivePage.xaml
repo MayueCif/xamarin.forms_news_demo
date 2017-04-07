@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="demo.LivePage" Title="直播" Icon="live.png" xmlns:segmented="clr-namespace:SegmentedControl.FormsPlugin.Abstractions;assembly=SegmentedControl.FormsPlugin.Abstractions">
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+		<StackLayout BackgroundColor="Red" Padding="0,6,0,6">
+			<segmented:SegmentedControl TintColor="#ffffff" SelectedSegment="0" VerticalOptions="Center" HorizontalOptions="Center">
+   				<segmented:SegmentedControl.Children>
+    				<segmented:SegmentedControlOption Text="热门" />
+    				<segmented:SegmentedControlOption Text="分类" />
+    				<segmented:SegmentedControlOption Text="订阅" />
+  				</segmented:SegmentedControl.Children>
+			</segmented:SegmentedControl>
+		</StackLayout>
+	</Grid>
+
+</ContentPage>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="demo.UTItemView" xmlns:local="clr-namespace:demo" >
+	<Grid VerticalOptions="Center" HeightRequest="32">
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="Auto"/>
+			<ColumnDefinition Width="*"/>
+			<ColumnDefinition Width="Auto"/>
+			<ColumnDefinition Width="Auto"/>
+		</Grid.ColumnDefinitions>
+		<Image Source="http://b.hiphotos.baidu.com/zhidao/wh%3D450%2C600/sign=f0c5c08030d3d539c16807c70fb7c566/8ad4b31c8701a18bbef9f231982f07082838feba.jpg"/> 
+		<Label Grid.Column="1" Text="我的消息" VerticalOptions="Center" HorizontalOptions="FillAndExpand"/>
+		<Label Grid.Column="2" Text="1条新消息" TextColor="Gray" HorizontalOptions="End" VerticalOptions="Center"/>
+		<Image Grid.Column="3" Source="{local:ResourceImageExtension demo.Resource.arrow.png}"/>
+	</Grid>
+</ContentView>

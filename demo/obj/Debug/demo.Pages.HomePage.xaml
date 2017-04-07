@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="demo.HomePage" Title="首页" Icon="home.png"  xmlns:local="clr-namespace:demo" xmlns:carouselview="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions">
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="*"/>
+			<ColumnDefinition Width="Auto"/>
+		</Grid.ColumnDefinitions>
+		<ScrollView Orientation="Horizontal">
+			<StackLayout Orientation="Horizontal" Padding="8">
+				<Label Text="头条"/>
+				<Label Text="娱乐"/>
+				<Label Text="体育"/>
+				<Label Text="科技"/>
+				<Label Text="财经"/>
+				<Label Text="军事"/>
+				<Label Text="热点"/>
+				<Label Text="手机"/>
+				<Label Text="教育"/>
+				<Label Text="云课堂"/>
+			</StackLayout>
+		</ScrollView>
+		<Image WidthRequest="40" Aspect="AspectFit" Grid.Column="1" Source="{local:ResourceImageExtension demo.Resource.plus.png}">
+			<Image.GestureRecognizers>
+				<TapGestureRecognizer Tapped="OnTapped"/>
+			</Image.GestureRecognizers>
+		</Image>
+		<ListView Grid.Row="1" Grid.ColumnSpan="2" RowHeight="80" ItemsSource="{Binding ListViewSource}">
+			<ListView.Header>
+				<carouselview:CarouselViewControl ShowIndicators="true" HeightRequest="200" ItemsSource="{Binding CarouselViewSource}">
+					<carouselview:CarouselViewControl.ItemTemplate>
+						<DataTemplate>
+							<Grid>
+								<Grid.RowDefinitions>
+									<RowDefinition Height="*" />
+									<RowDefinition Height="Auto" />
+								</Grid.RowDefinitions>
+								<Image Grid.RowSpan="2" Aspect="AspectFill" Source="{Binding Image}" />
+								<StackLayout Grid.Row="1" BackgroundColor="#80000000" Padding="8">
+									<Label TextColor="White" Text="{Binding Title}" FontSize="16" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+								</StackLayout>
+							</Grid>
+						</DataTemplate>
+					</carouselview:CarouselViewControl.ItemTemplate>
+				</carouselview:CarouselViewControl>
+			</ListView.Header>
+			<ListView.ItemTemplate>
+				<DataTemplate>
+					<ViewCell>
+								<Grid Margin="4">
+									<Grid.RowDefinitions>
+										<RowDefinition Height="*" />
+										<RowDefinition Height="Auto" />
+									</Grid.RowDefinitions>
+									<Grid.ColumnDefinitions>
+										<ColumnDefinition Width="80" />
+										<ColumnDefinition Width="Auto" />
+									</Grid.ColumnDefinitions>
+									<Label Grid.Row="0" Grid.Column="1" Text="{Binding Title}" VerticalOptions="FillAndExpand" FontSize="16" />
+									<Label Grid.Row="1" Grid.Column="1" Text="{Binding Column}" FontSize="12" TextColor="Gray"/>
+									<Image Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" Aspect="AspectFill" Source="{Binding Image}"/>
+								</Grid>
+					</ViewCell>
+				</DataTemplate>
+			</ListView.ItemTemplate>
+			<ListView.Footer>
+			</ListView.Footer>
+		</ListView>
+	</Grid>
+</ContentPage>

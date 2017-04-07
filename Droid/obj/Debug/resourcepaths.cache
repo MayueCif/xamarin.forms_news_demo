@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <AdditionalAndroidResourcePaths>
+    <AdditionalAndroidResourcePath>/Users/Myue/.local/share/Xamarin/Xamarin.Android.Support.v7.CardView/23.3.0.0/embedded</AdditionalAndroidResourcePath>
+    <AdditionalAndroidResourcePath>/Users/Myue/.local/share/Xamarin/Xamarin.Android.Support.Compat/24.2.1/embedded</AdditionalAndroidResourcePath>
+    <AdditionalAndroidResourcePath>/Users/Myue/.local/share/Xamarin/Xamarin.Android.Support.Core.UI/24.2.1/embedded</AdditionalAndroidResourcePath>
+    <AdditionalAndroidResourcePath>/Users/Myue/.local/share/Xamarin/Xamarin.Android.Support.Core.Utils/24.2.1/embedded</AdditionalAndroidResourcePath>
+    <AdditionalAndroidResourcePath>/Users/Myue/.local/share/Xamarin/Xamarin.Android.Support.Media.Compat/24.2.1/embedded</AdditionalAndroidResourcePath>
+    <AdditionalAndroidResourcePath>/Users/Myue/.local/share/Xamarin/Xamarin.Android.Support.Fragment/24.2.1/embedded</AdditionalAndroidResourcePath>
+    <AdditionalAndroidResourcePath>/Users/Myue/.local/share/Xamarin/Xamarin.Android.Support.v4/24.2.1/embedded</AdditionalAndroidResourcePath>
+    <AdditionalAndroidResourcePath>/Users/Myue/.local/share/Xamarin/Xamarin.Android.Support.v7.RecyclerView/24.2.1/embedded</AdditionalAndroidResourcePath>
+    <AdditionalAndroidResourcePath>/Users/Myue/.local/share/Xamarin/Xamarin.Android.Support.Vector.Drawable/24.2.1/embedded</AdditionalAndroidResourcePath>
+    <AdditionalAndroidResourcePath>/Users/Myue/.local/share/Xamarin/Xamarin.Android.Support.Animated.Vector.Drawable/24.2.1/embedded</AdditionalAndroidResourcePath>
+    <AdditionalAndroidResourcePath>/Users/Myue/.local/share/Xamarin/Xamarin.Android.Support.v7.AppCompat/24.2.1/embedded</AdditionalAndroidResourcePath>
+    <AdditionalAndroidResourcePath>/Users/Myue/.local/share/Xamarin/Xamarin.Android.Support.Design/24.2.1/embedded</AdditionalAndroidResourcePath>
+    <AdditionalAndroidResourcePath>/Users/Myue/.local/share/Xamarin/Xamarin.Android.Support.v7.MediaRouter/24.2.1/embedded</AdditionalAndroidResourcePath>
+  </AdditionalAndroidResourcePaths>
+  <AdditionalJavaLibraryReferences>
+    <AdditionalJavaLibraryReference>/Users/Myue/.local/share/Xamarin/Xamarin.Android.Support.v7.CardView/23.3.0.0/embedded/classes.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>/Users/Myue/.local/share/Xamarin/Xamarin.Android.Support.Compat/24.2.1/embedded/classes.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>/Users/Myue/.local/share/Xamarin/Xamarin.Android.Support.Compat/24.2.1/embedded/libs/internal_impl-24.2.1.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>/Users/Myue/.local/share/Xamarin/Xamarin.Android.Support.Core.UI/24.2.1/embedded/classes.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>/Users/Myue/.local/share/Xamarin/Xamarin.Android.Support.Core.UI/24.2.1/embedded/libs/internal_impl-24.2.1.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>/Users/Myue/.local/share/Xamarin/Xamarin.Android.Support.Core.Utils/24.2.1/embedded/classes.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>/Users/Myue/.local/share/Xamarin/Xamarin.Android.Support.Core.Utils/24.2.1/embedded/libs/internal_impl-24.2.1.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>/Users/Myue/.local/share/Xamarin/Xamarin.Android.Support.Media.Compat/24.2.1/embedded/classes.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>/Users/Myue/.local/share/Xamarin/Xamarin.Android.Support.Media.Compat/24.2.1/embedded/libs/internal_impl-24.2.1.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>/Users/Myue/.local/share/Xamarin/Xamarin.Android.Support.Fragment/24.2.1/embedded/classes.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>/Users/Myue/.local/share/Xamarin/Xamarin.Android.Support.Fragment/24.2.1/embedded/libs/internal_impl-24.2.1.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>/Users/Myue/.local/share/Xamarin/Xamarin.Android.Support.v4/24.2.1/embedded/classes.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>/Users/Myue/.local/share/Xamarin/Xamarin.Android.Support.v7.Palette/24.2.1/embedded/classes.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>/Users/Myue/.local/share/Xamarin/Xamarin.Android.Support.v7.RecyclerView/24.2.1/embedded/classes.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>/Users/Myue/.local/share/Xamarin/Xamarin.Android.Support.Vector.Drawable/24.2.1/embedded/classes.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>/Users/Myue/.local/share/Xamarin/Xamarin.Android.Support.Animated.Vector.Drawable/24.2.1/embedded/classes.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>/Users/Myue/.local/share/Xamarin/Xamarin.Android.Support.v7.AppCompat/24.2.1/embedded/classes.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>/Users/Myue/.local/share/Xamarin/Xamarin.Android.Support.Design/24.2.1/embedded/classes.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>/Users/Myue/.local/share/Xamarin/Xamarin.Android.Support.v7.MediaRouter/24.2.1/embedded/classes.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>/Users/Myue/.local/share/Xamarin/Xamarin.Android.Support.v7.MediaRouter/24.2.1/embedded/libs/internal_impl-24.2.1.jar</AdditionalJavaLibraryReference>
+  </AdditionalJavaLibraryReferences>
+  <AdditionalNativeLibraryReferences />
+</Paths>

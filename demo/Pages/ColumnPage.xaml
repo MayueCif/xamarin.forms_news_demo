@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+             x:Class="demo.ColumnPage" xmlns:local="clr-namespace:demo">
+	<pages:PopupPage.Padding>
+		<OnPlatform x:TypeArguments="Thickness" 
+        iOS="0,43,0,0" Android="0,53,0,0"/>
+	</pages:PopupPage.Padding>
+  	<Grid BackgroundColor="White" Opacity="0.8">
+  		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="*"/>
+			<ColumnDefinition Width="Auto"/>
+		</Grid.ColumnDefinitions>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+		<Label Text="切换栏目" Margin="8"/>
+		<Image WidthRequest="40" VerticalOptions="Center" Aspect="AspectFit" Grid.Column="1" Source="{local:ResourceImageExtension demo.Resource.close.png}">
+			<Image.GestureRecognizers>
+				<TapGestureRecognizer Tapped="OnClose"/>
+			</Image.GestureRecognizers>
+		</Image>
+		<local:WrapLayout Spacing="16" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2">
+			<local:WrapLayout.Resources>
+				<ResourceDictionary>
+					<Style TargetType="Label">
+						<!--Margin引起布局错乱 需修改WrapLayout-->
+						<!--<Setter Property="Margin" Value="16,8,16,8" />-->
+					</Style>
+				</ResourceDictionary>
+			</local:WrapLayout.Resources>
+		<!--先用label代替
+		实际项目可参考https://github.com/daniel-luberda/DLToolkit.Forms.Controls/tree/master/TagEntryView-->
+  			<Label Text="头条"/>
+			<Label Text="娱乐"/>
+			<Label Text="体育"/>
+			<Label Text="网易号"/>
+			<Label Text="视频"/>
+			<Label Text="财经"/>
+			<Label Text="图片"/>
+			<Label Text="科技"/>
+			<Label Text="轻松一刻"/>
+			<Label Text="二次元"/>
+			<Label Text="教育"/>
+			<Label Text="健康"/>
+	</local:WrapLayout>
+	</Grid>
+</pages:PopupPage>

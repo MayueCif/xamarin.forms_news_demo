@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="demo.UserPage" Title="我" Icon="user.png" xmlns:local="clr-namespace:demo" 
+	xmlns:imagecircle="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions">
+	<!--参考Android界面-->
+	<ContentPage.Resources>
+		<ResourceDictionary>
+			<Style TargetType="Frame">
+				<!--padding not work-->
+<!--				<Setter Property="Padding" Value="12" />-->
+				<Setter Property="Margin" Value="16,0,16,0" />
+				<Setter Property="OutlineColor" Value="Silver" />
+			</Style>
+		</ResourceDictionary>
+	</ContentPage.Resources>
+	<RelativeLayout>
+		<Grid x:Name="headerGrid" BackgroundColor="Red" HeightRequest="180" Padding="8,16,8,32"
+			RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1,Constant=0}"
+        	RelativeLayout.XConstraint = "{ConstraintExpression Type=RelativeToParent,Property=X,Factor=1,Constant=0}" 
+        	RelativeLayout.YConstraint = "{ConstraintExpression Type=RelativeToParent,Property=Y,Factor=1,Constant=0}">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="*"/>
+				<ColumnDefinition Width="*"/>
+			</Grid.ColumnDefinitions>
+			<Grid.RowDefinitions>
+				<RowDefinition Height="3*"/>
+				<RowDefinition Height="*"/>
+				<RowDefinition Height="*"/>
+			</Grid.RowDefinitions>
+			<imagecircle:CircleImage Grid.ColumnSpan="2" Source="http://b.hiphotos.baidu.com/zhidao/wh%3D450%2C600/sign=f0c5c08030d3d539c16807c70fb7c566/8ad4b31c8701a18bbef9f231982f07082838feba.jpg" 
+				Aspect="AspectFit" HorizontalOptions="Center"/>
+			<Label Text="网易新闻用户" TextColor="#ffffff" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="Center" VerticalOptions="Center"/>
+			<Label Text="跟帖局科员" TextColor="#FFFF00" Grid.Row="2" Grid.Column="0" HorizontalOptions="End"/>
+			<Label Text="金币 25" TextColor="#FFFF00" Grid.Row="2" Grid.Column="1"/>
+		</Grid>
+		<Frame Padding="12"
+			RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1,Constant=0}"
+        	RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,ElementName=headerGrid,Property=Y,Factor=1,Constant=204}">
+			<Grid>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="*"/>
+					<ColumnDefinition Width="1"/>
+					<ColumnDefinition Width="*"/>
+				</Grid.ColumnDefinitions>
+				<Label Text="我的关注 0" HorizontalOptions="Center"/>
+				<BoxView Color="Gray" HeightRequest="1" Grid.Column="1"/>
+				<Label Grid.Column="2" HorizontalOptions="Center" Text="我的粉丝 0"/>
+			</Grid>		
+		</Frame>
+		<Frame Padding="12" x:Name="moreFrame"
+			RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1,Constant=0}"
+        	RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,ElementName=headerGrid,Property=Y,Factor=1,Constant=264}">
+			<Grid>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="*"/>
+					<ColumnDefinition Width="1"/>
+					<ColumnDefinition Width="*"/>
+					<ColumnDefinition Width="1"/>
+					<ColumnDefinition Width="*"/>
+					<ColumnDefinition Width="1"/>
+					<ColumnDefinition Width="*"/>
+				</Grid.ColumnDefinitions>
+				<Grid.RowDefinitions>
+					<RowDefinition Height="*"/>
+					<RowDefinition Height="Auto"/>
+				</Grid.RowDefinitions>
+				<Label Text="订阅" HorizontalOptions="Center" Grid.Row="1"/>
+				<Label Text="收藏" HorizontalOptions="Center" Grid.Row="1" Grid.Column="2"/>
+				<Label Text="跟帖" HorizontalOptions="Center" Grid.Row="1" Grid.Column="4"/>
+				<Label Text="历史" HorizontalOptions="Center" Grid.Row="1" Grid.Column="6"/>
+				<BoxView Color="Gray" HeightRequest="1" Grid.Column="1" Grid.RowSpan="2"/>
+				<BoxView Color="Gray" HeightRequest="1" Grid.Column="3" Grid.RowSpan="2"/>
+				<BoxView Color="Gray" HeightRequest="1" Grid.Column="5" Grid.RowSpan="2"/>
+				<Image Source="{local:ResourceImageExtension demo.Resource.subscribe.png}"/>
+				<Image Grid.Column="2" Source="{local:ResourceImageExtension demo.Resource.collection.png}"/>
+				<Image Grid.Column="4" Source="{local:ResourceImageExtension demo.Resource.comment.png}"/>
+				<Image Grid.Column="6" Source="{local:ResourceImageExtension demo.Resource.history.png}"/>
+			</Grid>		
+		</Frame>
+		<!--此处应计算出ScrollView的高度，应使用代码添加的方式,demo示例写死固定为200-->
+		<ScrollView HeightRequest="200" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,ElementName=moreFrame,Property=Y,Factor=1,Constant=80}">
+			<StackLayout Spacing="16">
+				<Frame Padding="16">
+					<Grid>
+						<Grid.RowDefinitions>
+							<RowDefinition Height="Auto"/>
+							<RowDefinition Height="1"/>
+							<RowDefinition Height="Auto"/>
+							</Grid.RowDefinitions>
+						<local:UTItemView/>
+						<BoxView Color="Gray" HeightRequest="1" Grid.Row="1"/>
+						<local:UTItemView Grid.Row="2"/>
+					</Grid>		
+				</Frame>
+				<Frame Padding="16">
+					<Grid>
+						<Grid.RowDefinitions>
+							<RowDefinition Height="Auto"/>
+							<RowDefinition Height="1"/>
+							<RowDefinition Height="Auto"/>
+							<RowDefinition Height="1"/>
+							<RowDefinition Height="Auto"/>
+							<RowDefinition Height="1"/>
+							<RowDefinition Height="Auto"/>
+							</Grid.RowDefinitions>
+						<local:UTItemView/>
+						<BoxView Color="Gray" HeightRequest="1" Grid.Row="1"/>
+						<local:UTItemView Grid.Row="2"/>
+						<BoxView Color="Gray" HeightRequest="1" Grid.Row="3"/>
+						<local:UTItemView Grid.Row="4"/>
+						<BoxView Color="Gray" HeightRequest="1" Grid.Row="5"/>
+						<local:UTItemView Grid.Row="6"/>
+					</Grid>		
+				</Frame>
+			</StackLayout>
+		</ScrollView>
+	</RelativeLayout>
+</ContentPage>

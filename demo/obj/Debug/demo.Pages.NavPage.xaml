@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="demo.NavPage" xmlns:controls="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions">
+	<ContentPage.Padding>        
+     	<OnPlatform x:TypeArguments="Thickness" 
+        	iOS="0, 20, 0, 0" />
+	</ContentPage.Padding>
+	<controls:CarouselViewControl 
+     		HorizontalOptions="FillAndExpand"
+     		VerticalOptions="FillAndExpand"
+            AnimateTransition="true"
+            IsSwipingEnabled="true"
+            ItemTemplate="{Binding TemplateSelector}"
+            ItemsSource="{Binding ItemsSource}"
+            Orientation="Horizontal"
+            Position="{Binding Position}"
+            ShowIndicators="true" />
+<!--	IndicatorsShape="Square"
+                                      InterPageSpacing="10"
+                                      InterPageSpacingColor="Red"-->
+</ContentPage>
