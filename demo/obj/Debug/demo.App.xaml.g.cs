@@ -11,7 +11,7 @@
 namespace demo {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/Myue/Desktop/demo/demo/App.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/Myue/Desktop/xamarin.forms_news_demo/demo/App.xaml")]
     public partial class App : global::Xamarin.Forms.Application {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

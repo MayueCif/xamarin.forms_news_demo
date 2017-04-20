@@ -11,7 +11,7 @@
 namespace demo {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/Myue/Desktop/demo/demo/Views/Nav/Nav2View.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/Myue/Desktop/xamarin.forms_news_demo/demo/Views/Nav/Nav2View.xaml")]
     public partial class Nav2View : global::Xamarin.Forms.ContentView {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ImageCircle.Forms.Plugin.Abstractions</name>
+    </assembly>
+    <members>
+        <member name="T:ImageCircle.Forms.Plugin.Abstractions.CircleImage">
+            <summary>
+            ImageCircle Interface
+            </summary>
+        </member>
+        <member name="F:ImageCircle.Forms.Plugin.Abstractions.CircleImage.BorderThicknessProperty">
+            <summary>
+            Thickness property of border
+            </summary>
+        </member>
+        <member name="P:ImageCircle.Forms.Plugin.Abstractions.CircleImage.BorderThickness">
+            <summary>
+            Border thickness of circle image
+            </summary>
+        </member>
+        <member name="F:ImageCircle.Forms.Plugin.Abstractions.CircleImage.BorderColorProperty">
+            <summary>
+            Color property of border
+            </summary>
+        </member>
+        <member name="P:ImageCircle.Forms.Plugin.Abstractions.CircleImage.BorderColor">
+            <summary>
+            Border Color of circle image
+            </summary>
+        </member>
+        <member name="F:ImageCircle.Forms.Plugin.Abstractions.CircleImage.FillColorProperty">
+            <summary>
+            Color property of fill
+            </summary>
+        </member>
+        <member name="P:ImageCircle.Forms.Plugin.Abstractions.CircleImage.FillColor">
+            <summary>
+            Fill color of circle image
+            </summary>
+        </member>
+    </members>
+</doc>

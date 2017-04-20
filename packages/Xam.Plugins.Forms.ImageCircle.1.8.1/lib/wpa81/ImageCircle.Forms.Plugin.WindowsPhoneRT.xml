@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ImageCircle.Forms.Plugin.WindowsPhoneRT</name>
+    </assembly>
+    <members>
+        <member name="T:ImageCircle.Forms.Plugin.WindowsPhoneRT.ImageCircleRenderer">
+            <summary>
+            ImageCircle Implementation
+            </summary>
+        </member>
+        <member name="M:ImageCircle.Forms.Plugin.WindowsPhoneRT.ImageCircleRenderer.Init">
+            <summary>
+            Used for registration with dependency service
+            </summary>
+        </member>
+        <member name="M:ImageCircle.Forms.Plugin.WindowsPhoneRT.ImageCircleRenderer.OnElementChanged(Xamarin.Forms.Platform.WinRT.ElementChangedEventArgs{Xamarin.Forms.Image})">
+            <summary>
+            Register circle
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:ImageCircle.Forms.Plugin.WindowsPhoneRT.ImageCircleRenderer.OnElementPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+    </members>
+</doc>

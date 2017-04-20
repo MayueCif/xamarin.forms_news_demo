@@ -2,9 +2,9 @@
 # [first argument, ignore] # /Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/lib/mtouch/mtouch.exe
 /Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/lib/mtouch/mtouch.exe \
 	--cache \
-	/Users/Myue/Desktop/demo/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone8.1-10.3/mtouch-cache \
+	/Users/Myue/Desktop/xamarin.forms_news_demo/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone8.1-10.3/mtouch-cache \
 	--sim \
-	/Users/Myue/Desktop/demo/iOS/bin/iPhoneSimulator/Debug/device-builds/iphone8.1-10.3/demo.iOS.app \
+	/Users/Myue/Desktop/xamarin.forms_news_demo/iOS/bin/iPhoneSimulator/Debug/device-builds/iphone8.1-10.3/demo.iOS.app \
 	--executable \
 	demo.iOS \
 	--fastdev \
@@ -19,7 +19,7 @@
 	--http-message-handler=HttpClientHandler \
 	--abi=x86_64 \
 	--symbollist \
-	/Users/Myue/Desktop/demo/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone8.1-10.3/mtouch-symbols.list \
+	/Users/Myue/Desktop/xamarin.forms_news_demo/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone8.1-10.3/mtouch-symbols.list \
 	--dsym=no \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
@@ -30,33 +30,33 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
 	-r \
-	/Users/Myue/Desktop/demo/packages/CarouselView.FormsPlugin.3.1.1/lib/Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll \
+	/Users/Myue/Desktop/xamarin.forms_news_demo/packages/SegmentedControl.FormsPlugin.1.2.4/lib/Xamarin.iOS10/SegmentedControl.FormsPlugin.Abstractions.dll \
 	-r \
-	/Users/Myue/Desktop/demo/packages/CarouselView.FormsPlugin.3.1.1/lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.dll \
+	/Users/Myue/Desktop/xamarin.forms_news_demo/packages/SegmentedControl.FormsPlugin.1.2.4/lib/Xamarin.iOS10/SegmentedControl.FormsPlugin.iOS.dll \
 	-r \
-	/Users/Myue/Desktop/demo/packages/SegmentedControl.FormsPlugin.1.2.4/lib/Xamarin.iOS10/SegmentedControl.FormsPlugin.Abstractions.dll \
+	/Users/Myue/Desktop/xamarin.forms_news_demo/packages/Rg.Plugins.Popup.1.0.4/lib/Xamarin.IOS/Rg.Plugins.Popup.dll \
 	-r \
-	/Users/Myue/Desktop/demo/packages/SegmentedControl.FormsPlugin.1.2.4/lib/Xamarin.iOS10/SegmentedControl.FormsPlugin.iOS.dll \
+	/Users/Myue/Desktop/xamarin.forms_news_demo/packages/Rg.Plugins.Popup.1.0.4/lib/Xamarin.IOS/Rg.Plugins.Popup.IOS.dll \
 	-r \
-	/Users/Myue/Desktop/demo/packages/Rg.Plugins.Popup.1.0.4/lib/Xamarin.IOS/Rg.Plugins.Popup.dll \
+	/Users/Myue/Desktop/xamarin.forms_news_demo/packages/Rg.Plugins.Popup.1.0.4/lib/Xamarin.IOS/Rg.Plugins.Popup.Platform.dll \
 	-r \
-	/Users/Myue/Desktop/demo/packages/Rg.Plugins.Popup.1.0.4/lib/Xamarin.IOS/Rg.Plugins.Popup.IOS.dll \
+	/Users/Myue/Desktop/xamarin.forms_news_demo/packages/Xam.Plugins.Forms.ImageCircle.1.8.1/lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.Abstractions.dll \
 	-r \
-	/Users/Myue/Desktop/demo/packages/Rg.Plugins.Popup.1.0.4/lib/Xamarin.IOS/Rg.Plugins.Popup.Platform.dll \
+	/Users/Myue/Desktop/xamarin.forms_news_demo/packages/Xam.Plugins.Forms.ImageCircle.1.8.1/lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.iOS.dll \
 	-r \
-	/Users/Myue/Desktop/demo/packages/Xamarin.Forms.2.3.4.224/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
+	/Users/Myue/Desktop/xamarin.forms_news_demo/packages/Xamarin.Forms.2.3.4.231/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
 	-r \
-	/Users/Myue/Desktop/demo/packages/Xamarin.Forms.2.3.4.224/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
+	/Users/Myue/Desktop/xamarin.forms_news_demo/packages/Xamarin.Forms.2.3.4.231/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
 	-r \
-	/Users/Myue/Desktop/demo/packages/Xamarin.Forms.2.3.4.224/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
+	/Users/Myue/Desktop/xamarin.forms_news_demo/packages/Xamarin.Forms.2.3.4.231/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
 	-r \
-	/Users/Myue/Desktop/demo/packages/Xamarin.Forms.2.3.4.224/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
+	/Users/Myue/Desktop/xamarin.forms_news_demo/packages/Xamarin.Forms.2.3.4.231/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
 	-r \
-	/Users/Myue/Desktop/demo/packages/Xam.Plugins.Forms.ImageCircle.1.8.1/lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.Abstractions.dll \
+	/Users/Myue/Desktop/xamarin.forms_news_demo/packages/CarouselView.FormsPlugin.4.1.1/lib/Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll \
 	-r \
-	/Users/Myue/Desktop/demo/packages/Xam.Plugins.Forms.ImageCircle.1.8.1/lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.iOS.dll \
+	/Users/Myue/Desktop/xamarin.forms_news_demo/packages/CarouselView.FormsPlugin.4.1.1/lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.dll \
 	-r \
-	/Users/Myue/Desktop/demo/demo/bin/Debug/demo.dll \
+	/Users/Myue/Desktop/xamarin.forms_news_demo/demo/bin/Debug/demo.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
 	-r \
@@ -322,33 +322,35 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll \
 	-r \
-	/Users/Myue/Desktop/demo/packages/CarouselView.FormsPlugin.3.1.1/lib/Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll \
+	/Users/Myue/Desktop/xamarin.forms_news_demo/packages/SegmentedControl.FormsPlugin.1.2.4/lib/Xamarin.iOS10/SegmentedControl.FormsPlugin.Abstractions.dll \
 	-r \
-	/Users/Myue/Desktop/demo/packages/CarouselView.FormsPlugin.3.1.1/lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.dll \
+	/Users/Myue/Desktop/xamarin.forms_news_demo/packages/SegmentedControl.FormsPlugin.1.2.4/lib/Xamarin.iOS10/SegmentedControl.FormsPlugin.iOS.dll \
 	-r \
-	/Users/Myue/Desktop/demo/packages/SegmentedControl.FormsPlugin.1.2.4/lib/Xamarin.iOS10/SegmentedControl.FormsPlugin.Abstractions.dll \
+	/Users/Myue/Desktop/xamarin.forms_news_demo/packages/Rg.Plugins.Popup.1.0.4/lib/Xamarin.IOS/Rg.Plugins.Popup.dll \
 	-r \
-	/Users/Myue/Desktop/demo/packages/SegmentedControl.FormsPlugin.1.2.4/lib/Xamarin.iOS10/SegmentedControl.FormsPlugin.iOS.dll \
+	/Users/Myue/Desktop/xamarin.forms_news_demo/packages/Rg.Plugins.Popup.1.0.4/lib/Xamarin.IOS/Rg.Plugins.Popup.IOS.dll \
 	-r \
-	/Users/Myue/Desktop/demo/packages/Rg.Plugins.Popup.1.0.4/lib/Xamarin.IOS/Rg.Plugins.Popup.dll \
+	/Users/Myue/Desktop/xamarin.forms_news_demo/packages/Rg.Plugins.Popup.1.0.4/lib/Xamarin.IOS/Rg.Plugins.Popup.Platform.dll \
 	-r \
-	/Users/Myue/Desktop/demo/packages/Rg.Plugins.Popup.1.0.4/lib/Xamarin.IOS/Rg.Plugins.Popup.IOS.dll \
+	/Users/Myue/Desktop/xamarin.forms_news_demo/packages/Xam.Plugins.Forms.ImageCircle.1.8.1/lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.Abstractions.dll \
 	-r \
-	/Users/Myue/Desktop/demo/packages/Rg.Plugins.Popup.1.0.4/lib/Xamarin.IOS/Rg.Plugins.Popup.Platform.dll \
+	/Users/Myue/Desktop/xamarin.forms_news_demo/packages/Xam.Plugins.Forms.ImageCircle.1.8.1/lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.iOS.dll \
 	-r \
-	/Users/Myue/Desktop/demo/packages/Xamarin.Forms.2.3.4.224/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
+	/Users/Myue/Desktop/xamarin.forms_news_demo/packages/Xamarin.Forms.2.3.4.231/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
 	-r \
-	/Users/Myue/Desktop/demo/packages/Xamarin.Forms.2.3.4.224/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
+	/Users/Myue/Desktop/xamarin.forms_news_demo/packages/Xamarin.Forms.2.3.4.231/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
 	-r \
-	/Users/Myue/Desktop/demo/packages/Xamarin.Forms.2.3.4.224/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
+	/Users/Myue/Desktop/xamarin.forms_news_demo/packages/Xamarin.Forms.2.3.4.231/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
 	-r \
-	/Users/Myue/Desktop/demo/packages/Xamarin.Forms.2.3.4.224/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
+	/Users/Myue/Desktop/xamarin.forms_news_demo/packages/Xamarin.Forms.2.3.4.231/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
 	-r \
-	/Users/Myue/Desktop/demo/packages/Xam.Plugins.Forms.ImageCircle.1.8.1/lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.Abstractions.dll \
+	/Users/Myue/Desktop/xamarin.forms_news_demo/packages/CarouselView.FormsPlugin.4.1.1/lib/Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll \
 	-r \
-	/Users/Myue/Desktop/demo/packages/Xam.Plugins.Forms.ImageCircle.1.8.1/lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.iOS.dll \
+	/Users/Myue/Desktop/xamarin.forms_news_demo/packages/CarouselView.FormsPlugin.4.1.1/lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.dll \
 	-r \
-	/Users/Myue/Desktop/demo/demo/bin/Debug/demo.dll \
+	/Users/Myue/Desktop/xamarin.forms_news_demo/demo/bin/Debug/demo.dll \
+	-r \
+	/Users/Myue/Desktop/xamarin.forms_news_demo/demo/bin/Debug/en/demo.resources.dll \
 	--target-framework \
 	"Xamarin.iOS,v1.0" \
-	/Users/Myue/Desktop/demo/iOS/bin/iPhoneSimulator/Debug/demo.iOS.exe \
+	/Users/Myue/Desktop/xamarin.forms_news_demo/iOS/bin/iPhoneSimulator/Debug/demo.iOS.exe \

@@ -11,7 +11,7 @@
 namespace demo {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/Myue/Desktop/demo/demo/Pages/MainTabbedPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/Myue/Desktop/xamarin.forms_news_demo/demo/Pages/MainTabbedPage.xaml")]
     public partial class MainTabbedPage : global::Xamarin.Forms.TabbedPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

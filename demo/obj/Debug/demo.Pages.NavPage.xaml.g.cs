@@ -11,7 +11,7 @@
 namespace demo {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/Myue/Desktop/demo/demo/Pages/NavPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/Myue/Desktop/xamarin.forms_news_demo/demo/Pages/NavPage.xaml")]
     public partial class NavPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

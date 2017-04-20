@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ImageCircle.Forms.Plugin.Android</name>
+    </assembly>
+    <members>
+        <member name="T:ImageCircle.Forms.Plugin.Droid.ImageCircleRenderer">
+            <summary>
+            ImageCircle Implementation
+            </summary>
+        </member>
+        <member name="M:ImageCircle.Forms.Plugin.Droid.ImageCircleRenderer.Init">
+            <summary>
+            Used for registration with dependency service
+            </summary>
+        </member>
+        <member name="M:ImageCircle.Forms.Plugin.Droid.ImageCircleRenderer.OnElementChanged(Xamarin.Forms.Platform.Android.ElementChangedEventArgs{Xamarin.Forms.Image})">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:ImageCircle.Forms.Plugin.Droid.ImageCircleRenderer.DrawChild(Android.Graphics.Canvas,Android.Views.View,System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="canvas"></param>
+            <param name="child"></param>
+            <param name="drawingTime"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

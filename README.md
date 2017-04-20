@@ -10,3 +10,5 @@
 
 ![用户界面截图](https://raw.githubusercontent.com/MyueX/xamarin.forms_news_demo/master/screenshot/2.png) 
 
+
+增加国际化实现（Demo测试）

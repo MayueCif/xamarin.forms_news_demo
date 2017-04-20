@@ -2574,9 +2574,9 @@ containing a value of this type.
         public static final int cardview_light_background=0x7f0a0045;
         public static final int cardview_shadow_end_color=0x7f0a0046;
         public static final int cardview_shadow_start_color=0x7f0a0047;
-        public static final int default_circle_indicator_fill_color=0x7f0a0052;
-        public static final int default_circle_indicator_page_color=0x7f0a0053;
-        public static final int default_circle_indicator_stroke_color=0x7f0a0054;
+        public static final int default_circle_indicator_fill_color=0x7f0a0050;
+        public static final int default_circle_indicator_page_color=0x7f0a0051;
+        public static final int default_circle_indicator_stroke_color=0x7f0a0052;
         public static final int design_error=0x7f0a0067;
         public static final int design_fab_shadow_end_color=0x7f0a0000;
         public static final int design_fab_shadow_mid_color=0x7f0a0001;
@@ -2611,7 +2611,7 @@ containing a value of this type.
         public static final int material_grey_800=0x7f0a002f;
         public static final int material_grey_850=0x7f0a0030;
         public static final int material_grey_900=0x7f0a0031;
-        public static final int normal=0x7f0a0048;
+        public static final int normal=0x7f0a0053;
         public static final int primary_dark_material_dark=0x7f0a0032;
         public static final int primary_dark_material_light=0x7f0a0033;
         public static final int primary_material_dark=0x7f0a0034;
@@ -2627,21 +2627,21 @@ containing a value of this type.
         public static final int secondary_text_disabled_material_dark=0x7f0a003e;
         public static final int secondary_text_disabled_material_light=0x7f0a003f;
         public static final int segmented_control_text=0x7f0a0069;
-        public static final int selected=0x7f0a0049;
+        public static final int selected=0x7f0a0054;
         public static final int switch_thumb_disabled_material_dark=0x7f0a0040;
         public static final int switch_thumb_disabled_material_light=0x7f0a0041;
         public static final int switch_thumb_material_dark=0x7f0a006a;
         public static final int switch_thumb_material_light=0x7f0a006b;
         public static final int switch_thumb_normal_material_dark=0x7f0a0042;
         public static final int switch_thumb_normal_material_light=0x7f0a0043;
-        public static final int vpi__background_holo_dark=0x7f0a004a;
-        public static final int vpi__background_holo_light=0x7f0a004b;
-        public static final int vpi__bright_foreground_disabled_holo_dark=0x7f0a004e;
-        public static final int vpi__bright_foreground_disabled_holo_light=0x7f0a004f;
-        public static final int vpi__bright_foreground_holo_dark=0x7f0a004c;
-        public static final int vpi__bright_foreground_holo_light=0x7f0a004d;
-        public static final int vpi__bright_foreground_inverse_holo_dark=0x7f0a0050;
-        public static final int vpi__bright_foreground_inverse_holo_light=0x7f0a0051;
+        public static final int vpi__background_holo_dark=0x7f0a0048;
+        public static final int vpi__background_holo_light=0x7f0a0049;
+        public static final int vpi__bright_foreground_disabled_holo_dark=0x7f0a004c;
+        public static final int vpi__bright_foreground_disabled_holo_light=0x7f0a004d;
+        public static final int vpi__bright_foreground_holo_dark=0x7f0a004a;
+        public static final int vpi__bright_foreground_holo_light=0x7f0a004b;
+        public static final int vpi__bright_foreground_inverse_holo_dark=0x7f0a004e;
+        public static final int vpi__bright_foreground_inverse_holo_light=0x7f0a004f;
     }
     public static final class dimen {
         public static final int abc_action_bar_content_inset_material=0x7f070035;

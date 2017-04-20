@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="home" xml:space="preserve">
+    	<value>Home</value>
+    	<comment>home page title</comment>
+	</data>
+	<data name="news" xml:space="preserve">
+    	<value>News</value>
+	</data>
+	<data name="live" xml:space="preserve">
+    	<value>Live</value>
+	</data>
+	<data name="video" xml:space="preserve">
+    	<value>Video</value>
+	</data>
+	<data name="user" xml:space="preserve">
+    	<value>User</value>
+	</data>
+</root>

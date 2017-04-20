@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{78ED10B0-5EC1-461B-8113-2DEAB887CB1C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="demo/Pages/LivePage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="demo/Pages/HomePage.xaml">
     <Files>
-      <File FileName="demo/Pages/ColumnPage.xaml" Line="12" Column="33" />
-      <File FileName="demo/Pages/LivePage.xaml.cs" Line="13" Column="1" />
-      <File FileName="demo/Pages/LivePage.xaml" Line="25" Column="33" />
+      <File FileName="demo/Pages/HomePage.xaml" Line="3" Column="89" />
+      <File FileName="demo/Pages/LivePage.xaml" Line="3" Column="90" />
+      <File FileName="demo/Pages/NewsPage.xaml" Line="3" Column="56" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.demo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F460CDEE-90C4-4B6B-88B3-3B7C29A00EC5" />
@@ -11,7 +11,9 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="demo/Pages/MainTabbedPage.xaml.cs" line="68" offsetX="828" offsetY="1005" expression="Resource" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.demo.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.AVD_for_Nexus_5_by_Google" />
+  <MonoDevelop.Ide.ItemProperties.demo.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.V4J9XAT533006474" />
 </Properties>
